@@ -22,12 +22,12 @@ variable "bucket_policy" {
 
 variable "bucket_name" {
   type       = string
-  desciption = "Define a s3 bucket name"
+  description = "Define a s3 bucket name"
 }
 
 variable "content_type" {
   type       = string
-  desciption = "Define a s3 bucket content_type"
+  description = "Define a s3 bucket content_type"
 }
 
 variable "versioning" {
